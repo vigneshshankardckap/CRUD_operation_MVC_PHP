@@ -11,6 +11,7 @@
     <execution />
   </component>
   <component name="ProjectId" id="2RPxhDma3gYFwksVYzOEZBVEnuG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,11 +31,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1687165639002</updated>
-      <workItem from="1687165655683" duration="2494000" />
+      <workItem from="1687165655683" duration="3271000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="72" y="27" width="558" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1687169352653">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="27" width="558" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1294.741@72.27.1294.741" timestamp="1687169352653" />
   </component>
 </project>

@@ -11,17 +11,17 @@
 
 <?php foreach ($onedata as $index => $product):?>
     <form action="/edit" method="post"  enctype="multipart/form-data">
-        <div class="conatiner">
+        <div class="container">
             <h2>Edit Products</h2>
             <label for="">Product Name</label><br>
             <input  type="text" name="product_name"  placeholder="Add your products" value="<?php echo $product->product_name?>"  required ><br>
             <label for="">Price</label>
             <input type="number" name="price" placeholder="Your Price" value="<?php echo $product->price?>" required ><br>
-            <label for="">Add Product Image</label>
+            <label for="">Add Product Image</label><br>
             <input type="file" name="image" placeholder ="Product image" width="75px" height ="75px"  value="<?php echo $product->image?>" required> <br>
-            <label for="">Product SKU</label>
+            <label for="">Product SKU</label><br>
             <input type="text" name="sku" placeholder="Product SKU" value="<?php echo $product->sku?>" required ><br>
-            <label for="brands">Choose your Brand </label>
+            <label for="brands">Choose your Brand </label><br>
             <select name="brands" id="brands" ><br>
                 <option value="<?php echo $product->brand?>"><?php echo $product->brand?></option>
                 <option value="Apple">Apple</option>
@@ -31,11 +31,11 @@
             </select><br>
             <label for="">Manufacture Date</label><br>
             <input type="date" name="manufactured" placeholder="product date" value="<?php echo $product->manufactured?>" required > <br>
-            <label for="">Available Stock</label>
+            <label for="">Available Stock</label><br>
             <input type="number" name="stock" placeholder="Your Price" value="<?php echo $product->availabe_stock?>" required > <br>
              <input type="text" name="id" value="<?php echo $product->id?>"> <br>
 
-            <input type="submit" name="edit" value="Update your Products">
+            <input type="submit" name="edit" value="Update">
         </div>
     </form>
 <?php endforeach;?>
